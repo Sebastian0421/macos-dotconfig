@@ -1,0 +1,2 @@
+nvim 放在 ~/.config 下（文件在 ~/.config/nvim）
+site 放在 ~/.local/share/nvim 中(插件在~/.local/share/nvim/sit/pack/packer/start)

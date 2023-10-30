@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://tw93.fun/2023-02-06/alacritty.html -->
+<html class="no-js" lang="zh-cmn-Hans"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link id="giscus-css" rel="stylesheet" href="./改良了下传说中最快的终端 - Tw93_files/default.css">
+  
+  <title>改良了下传说中最快的终端 - Tw93</title>
+  <meta name="description" content="Hi，我是 Tw93，是一个前端工程师，会一点 Swift / Rust / Python，喜欢折腾各种新技术。Technology最近发现了 Alacritty，一个基于 Rust 使用 OpenGL 加速的跨平台终端仿真器，只有 5M 的样子，传说中最快的终端，不过是真的丑，想着要不要改造一下，看能否当做我的默认终端，最终成品还不错。">
+  
+  <meta name="keywords" content="">
+  
+
+  <meta name="viewport" content="width=device-width">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <!-- Open Graph -->
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="改良了下传说中最快的终端 - Tw93">
+  <meta property="og:description" content="最近发现了 Alacritty，一个基于 Rust 使用 OpenGL 加速的跨平台终端仿真器，只有 5M 的样子，传说中最快的终端，不过是真的丑，想着要不要改造一下，看能否当做我的默认终端，最终成品还不错。">
+  <meta property="og:url" content="https://tw93.fun/2023-02-06/alacritty.html">
+  <meta property="og:site_name" content="Tw93">
+  <link rel="stylesheet" href="./改良了下传说中最快的终端 - Tw93_files/lxgwwenkaiscreenr.css" async="" as="font">
+
+
+
+<meta name="twitter:creator" content="@hiTw93">
+<meta name="twitter:site" content="https://tw93.fun">
+<meta name="twitter:url" content="https://tw93.fun/2023-02-06/alacritty.html">
+<meta name="twitter:title" content="改良了下传说中最快的终端 - Tw93">
+<meta name="twitter:description" content="最近发现了 Alacritty，一个基于 Rust 使用 OpenGL 加速的跨平台终端仿真器，只有 5M 的样子，传说中最快的终端，不过是真的丑，想着要不要改造一下，看能否当做我的默认终端，最终成品还不错。">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://static.tw93.fun/img/0AscUe.png">
+
+
+
+  
+  <meta name="baidu-site-verification" content="kxGpkpWG7G">
+  
+
+  
+  <meta name="google-site-verification" content="DbapjTyfmMvvmkuA1GiGcXMqgPQrtgxeUTGY-MrEOYw">
+  
+
+  
+  <meta property="og:image" content="https://static.tw93.fun/img/0AscUe.png">
+  
+
+
+  
+  <link rel="canonical" href="https://tw93.fun/2023-02-06/alacritty.html">
+  <link href="https://tw93.fun/feed.xml" type="application/atom+xml" rel="alternate" title="Tw93 Feed">
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+
+  <link rel="stylesheet" href="./改良了下传说中最快的终端 - Tw93_files/index.css">
+
+  <meta http-equiv="cleartype" content="on">
+
+  <link rel="shortcut icon" href="https://gw.alipayobjects.com/zos/k/h9/1.png">
+
+  
+  <script type="text/javascript" async="" src="./改良了下传说中最快的终端 - Tw93_files/analytics.js.下载"></script><script src="./改良了下传说中最快的终端 - Tw93_files/lazysizes.min.js.下载" async=""></script>
+  
+</head>
+
+<body id="post">
+<remove-web-limits-iqxin id="rwl-iqxin" class="rwl-exempt" style="position: fixed; top: 105px; left: 0px;"><qxinbutton type="qxinbutton" id="rwl-setbtn"> set </qxinbutton> <lalala style="cursor:move; font-size:12px;">限制解除</lalala> <input type="checkbox" name="" id="black_node"><style type="text/css">#rwl-iqxin{position:fixed;transform:translate(-95%,0);width:85px;height:25px;font-size:12px;font-weight: 500;font-family:Verdana, Arial, '宋体';color:#fff;background:#333;z-index:2147483647;margin: 0;opacity:0.05;transition:0.3s;overflow:hidden;user-select:none;text-align:center;white-space:nowrap;line-height:25px;padding:0 16px;border:1px solid #ccc;border-width:1px 1px 1px 0;border-bottom-right-radius:5px;box-sizing: content-box;}#rwl-iqxin input{margin: 0;padding: 0;vertical-align:middle;-webkit-appearance:checkbox !important;-moz-appearance:checkbox;position: static;clip: auto;opacity: 1;cursor: pointer;}#rwl-iqxin.rwl-active-iqxin{left: 0px;transform:translate(0,0);opacity: 0.9;height: 32px;line-height: 32px}#rwl-iqxin label{margin:0;padding:0;font-weight:500;}#rwl-iqxin #rwl-setbtn{margin: 0 4px 0 0;padding: 0 0 0 4px;border: none;border-radius: 2px;cursor: pointer;background: #fff;color: #000;} </style></remove-web-limits-iqxin><!--[if lt IE 10]>
+<div class="upgrade"><strong><a href="http://whatbrowser.org/" target="_blank">Your browser is quite old!</strong> Why
+  not upgrade to a different browser to better enjoy this site?</a></div>
+<![endif]-->
+
+
+
+<div class="header-menu" id="J_header">
+  <ul class="header-item-container">
+    <li class="header-item-title active">
+      <a href="https://tw93.fun/" class="title"> Tw93</a>
+    </li>
+    
+
+    
+    
+
+    
+    <li class="header-item "><a href="https://tw93.fun/feed.xml" target="_blank">RSS</a></li>
+    
+    
+
+    
+    
+
+    
+    <li class="header-item "><a href="https://github.com/tw93" target="_blank">Github</a></li>
+    
+    
+
+    
+    
+
+    
+    <li class="header-item "><a href="https://weekly.tw93.fun/" target="_blank">Weekly</a></li>
+    
+    
+
+    
+    
+
+    
+    <li class="header-item "><a href="https://tw93.fun/about">About</a></li>
+    
+    
+
+    
+    
+
+    
+    <li class="header-item "><a href="https://tw93.fun/categories.html">Categories</a></li>
+    
+    
+  </ul>
+</div>
+
+<div class="entry-header">
+  <svg width="100%" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <path id="svg-title-path">
+      <animate attributeName="d" from="m0,110 h0" to="m0,110 h1600" dur="2s" repeatCount="1" fill="freeze" begin="0s"></animate>
+    </path>
+    <text font-size="34" font-weight="bold" fill="#ffffff" x="50%" y="50%" text-anchor="middle" word-spacing="2.0" letter-spacing="0.9">
+      <textpath xlink:href="#svg-title-path">改良了下传说中最快的终端</textpath>
+    </text>
+  </svg>
+  <canvas id="J_firework_canvas" width="1920" height="260"></canvas>
+</div>
+
+<div id="main" role="main">
+  <article class="hentry">
+    <div class="entry-content">
+      <h1 class="post-title entry-title">改良了下传说中最快的终端</h1>
+      <h4 class="page-info">
+        <span>Categories: Technology</span>
+        <time datetime="2023-02-06T22:00:00+01:00">2023-02-06</time>
+        <div class="qr-text" id="J_qr_text">
+          <div id="J_qr_code" class="qr-code" onmouseover="this.title=&#39;&#39;;" title="https://tw93.fun/2023-02-06/alacritty.html"><canvas width="128" height="128" style="display: none;"></canvas><img style="display: block;" src="data:image/png;base64,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"></div>
+        </div>
+      </h4>
+      <h2 id="长话短说">长话短说</h2>
+
+<p>好久没有折腾电脑的命令行终端工具了，之前用了好多年的 iTerm2，由于颜值党的缘故去年开始使用 Hyper，搭配 Oh My Zsh 用得算顺手，唯一就是冷启动有些慢。后面也有试过 Warp、Wez’s、Kitty 这一类，奈何还是不太顺手。</p>
+
+<p>最近发现了 Alacritty，一个基于 Rust 使用 OpenGL 加速的跨平台终端仿真器，只有 5M 的样子，传说中是最快的终端，关于是不是最快的终端，在官网文档里面 <a href="https://github.com/alacritty/alacritty#faq" target="_blank">这段话</a> 说明，试了试发现是真的快，不过也是真的丑，默认的效果丑出天际，直接就劝退一批人了。想着要不要改造改造，周末有空给折腾了下，最后成品还不错，于是将配置按照顺序写下来给到有兴趣折腾的同学玩玩，大概 10min 可搞定，<strong>此外 20230211 通过折腾 Tmux 让 Alacritty 支持了多 Tab 切换的功能</strong>，在文章最后补充。</p>
+
+<h3 id="一下载安装包">一、下载安装包</h3>
+
+<p>开始之前，可以去 <a href="https://github.com/alacritty/alacritty" target="_blank">Alacritty</a> Github 下载好对应的包，Mac 用户对应的包是这个 <a href="https://github.com/alacritty/alacritty/releases/download/v0.11.0/Alacritty-v0.11.0.dmg" target="_blank">Alacritty-v0.11.0.dmg</a>，下载好后，你将看到下图左侧效果，最后我们将改成右侧优化效果。</p>
+
+<p><img src="./改良了下传说中最快的终端 - Tw93_files/OKZX5C.png" alt="对比"></p>
+
+<h3 id="二替换默认的应用图标">二、替换默认的应用图标</h3>
+
+<p>应用图标实在太丑了，首先我们可以下载我这边的一个 <a href="https://gw.alipayobjects.com/os/k/41/logo.icns" target="_blank">logo.icns</a>，在应用文件夹中找到 <code class="language-plaintext highlighter-rouge">Alacritty.app</code> 选中后快捷键 <code class="language-plaintext highlighter-rouge">command + i</code> 打开显示简介，然后将下载的 icns 文件拖动到左上角图标上，即可完成替换，最后重新下图标就自动更新了。</p>
+
+<h3 id="三让他的展示变得漂亮些">三、让他的展示变得漂亮些</h3>
+
+<p>个人比较习惯软件使用沉浸式头，同时字体喜欢用 <a href="https://www.jetbrains.com/lp/mono/" target="_blank">JetBrains Mono</a>，本地没有可以直接下载安装，最后按照喜好配置颜色，好在这里设置全部可以放到 <code class="language-plaintext highlighter-rouge">~/.config/alacritty/alacritty.yml</code>，我的是 <a href="https://gw.alipayobjects.com/os/k/s0/alacritty.yml" target="_blank">alacritty.yml</a>，运行如下命令，可以直接下载并放到对应的位置。</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-fLo</span> ~/.config/alacritty/alacritty.yml <span class="nt">--create-dir</span> <span class="se">\</span>
+     https://gw.alipayobjects.com/os/k/j2/alacritty.yml
+</code></pre></div></div>
+
+<p>执行完，重新打开下试试，效果差不多会变成上面图片中的右图效果了。此外除了样式的配置，还添加了一些常用的快捷键（哎，居然快捷键都要配置），包括如下：</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">command</span> + r：清屏，清理掉历史命令行的显示
+<span class="nb">command</span> + w: 隐藏，默认是直接quit了，这里改成隐藏
+<span class="nb">command</span> + t:  新开窗口，假如需要第二个终端窗口
+<span class="nb">command</span> + <span class="nb">shift</span>+w：关闭当前窗口
+<span class="nb">command</span> + delete：删除一行
+<span class="nb">command</span> + f：搜索关键字
+<span class="nb">command</span> + ←：跳到行首
+<span class="nb">command</span> + →：跳到行尾
+</code></pre></div></div>
+
+<p>配置完成后，UI 颜色和字体展示大概是这样，基本上比较舒服的高亮。
+<img src="./改良了下传说中最快的终端 - Tw93_files/Lb8iKn.png" width="800"></p>
+
+<h3 id="四要不要试试-fish-shell">四、要不要试试 fish shell</h3>
+
+<p>不少同学应该是使用的 zsh，我之前也是，不过 zsh 整体加载使用性能其实不是很快，同时配置起来也不是那么方便，这里推荐可以试试 <a href="https://fishshell.com/" target="_blank">Fish</a>，很开箱即用，同时性能很不错，内置了自动提示、语法高亮、tab 自动完成、可视 Web 配置功能，此外 shell 的 prompt 加载超级快，几乎没有延迟。</p>
+
+<p>首先可执行 brew 安装 fish shell，执行过程中应该会问你要不要设置成默认，假如安装完成后，重新打开默认不是 fish，可参考此文档 <a href="https://fishshell.com/docs/current/index.html#default-shell" target="_blank">default-shell</a> 设置成默认。</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install </span>fish
+</code></pre></div></div>
+
+<p>安装完成 fish 以后，其实基本上够用了，也可以执行 <code class="language-plaintext highlighter-rouge">fish_config</code> 打开 web 可视化设置，此外我一般不会使用太多插件，但是这两个很有必要一装，步骤可见下面安装命令。</p>
+
+<p>第一个是<code class="language-plaintext highlighter-rouge">z</code>，他的作用是帮你记住你之前的历史打开，可以在任何路径，一键打开对应的地址，安装地址在<a href="https://github.com/jethrokuan/z" target="_blank">jethrokuan/z</a>，使用前需要先安装 <a href="https://github.com/jorgebucaran/fisher" target="_blank">fisher</a>用于下载插件。</p>
+
+<p>第二个是 <a href="https://github.com/pure-fish/pure" target="_blank">pure-fish/pure</a> 主题，比较极简，同样也是可以通过 fisher 下载。</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 安装 fisher</span>
+curl <span class="nt">-sL</span> https://raw.githubusercontent.com/jorgebucaran/fisher/HEAD/functions/fisher.fish | <span class="nb">source</span> <span class="o">&amp;&amp;</span> fisher <span class="nb">install </span>jorgebucaran/fisher
+<span class="c"># 安装 z</span>
+fisher <span class="nb">install </span>jethrokuan/z
+<span class="c"># 安装 pure 主题</span>
+fisher <span class="nb">install </span>pure-fish/pure
+</code></pre></div></div>
+
+<p>最后安装好以后的效果如下：</p>
+
+<p><img src="./改良了下传说中最快的终端 - Tw93_files/12.gif" width="800"></p>
+
+<p>对于 pure 主题而言，可以稍微配置下，直接命令行输入即可，如下所示</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 可以将原来的&gt;修改成你喜欢的表情图案，比如我设置的是🏂</span>
+<span class="nb">set</span> <span class="nt">--universal</span>  pure_symbol_prompt 🏂
+<span class="c"># 假如不喜欢上下行的方式，可以将命令行输入和当前文件夹放一行</span>
+<span class="nb">set</span> <span class="nt">--universal</span> pure_enable_single_line_prompt <span class="nb">true</span>
+</code></pre></div></div>
+
+<p>全部配置完成后，使用正常时间一致的录屏，没有任何加速的情况下，基本上可以看到秒开。</p>
+
+<p><img src="./改良了下传说中最快的终端 - Tw93_files/ala.gif" width="800"></p>
+
+<h3 id="五可能的问题">五、可能的问题</h3>
+
+<ol>
+  <li>npm 全局安装的命令行执行无效？基本是没有将全局安装目录设置成 PATH,可以参考 <a href="https://github.com/fish-shell/fish-shell/issues/3023#issuecomment-387944920" target="_blank">NPM global commands not working with fish</a>。</li>
+  <li>如何设置 Alacritty 可以全局快捷键打开？推荐试试 <a href="https://github.com/gbammc/Thor" target="_blank">Thor</a>，设置他的快捷键为<code class="language-plaintext highlighter-rouge">option+空格</code>或者你喜欢的，这样及时在没有打开的情况下也可以快速打开。</li>
+  <li>如何设置 VS Code 默认的命令行工具为 Fish？ 打开设置，搜索 <code class="language-plaintext highlighter-rouge">shellArgs.osx</code>，修改选项为 fish 即可。</li>
+  <li>Alacritty 不支持多 Tab 的模式，如何支持？有两个办法，第一个是使用 <a href="https://github.com/zellij-org/zellij" target="_blank">zellij</a> 或者 <a href="https://github.com/tmux/tmux" target="_blank">Tmux</a> 插件，可以去搜索对应文档。另外一个可以自己打包，参考这个 <a href="https://github.com/alacritty/alacritty/issues/1544" target="_blank">issue</a>，不过假如你习惯了，其实不用 tab 我觉得也还行。</li>
+</ol>
+
+<h3 id="六增加多-tab-的能力">六、增加多 Tab 的能力</h3>
+
+<p>有网友反馈 Alacritty 没有 Tab 功能不好用，我这里使用 <a href="https://github.com/tmux/tmux" target="_blank">Tmux</a> 玩了玩，来定制了下这个能力，不过说实话这个插件的功能实在太多太杂了，我理想的产品应该是开箱即用的一条命令就搞定的，尝试着朝着极简的方向封装了下，使用体验和 Chrome 快捷键一致，最后效果可见如下：</p>
+
+<p><img src="./改良了下传说中最快的终端 - Tw93_files/alacritty.gif" width="800"></p>
+
+<p>这里没有使用他的分屏功能，因为我用不上，只使用的 Tab 切换以及当前记录保留功能，其实假如你就是简单实用命令行，其实上面非 Tab 的方案完全够用，如果强烈有多 Tab 需求，那可以按照如下步骤来玩一玩：</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 1. 首先安装 tmux</span>
+brew <span class="nb">install </span>tmux
+<span class="c"># 2. 下载tmux配置问题到本地位置</span>
+curl <span class="nt">-fLo</span> ~/.tmux.conf <span class="se">\</span>
+    https://gw.alipayobjects.com/os/k/8b/.tmux.conf
+<span class="c"># 3. 重新替换一下 alacrittye 配置文件</span>
+curl <span class="nt">-fLo</span> ~/.config/alacritty/alacritty.yml <span class="nt">--create-dir</span> <span class="se">\</span>
+     https://gw.alipayobjects.com/os/k/l9/alacritty.yml
+</code></pre></div></div>
+
+<p>安装完成以后，可以重启一下 Alacritty，应该就默认加载了 tmux 的运行，在之前基础上补充如下快捷键：</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">command</span> + t：新开标签页
+<span class="nb">command</span> + w: 关闭标签页
+<span class="nb">command</span> + 数字：跳转对应标签页
+<span class="nb">command</span> + <span class="nb">shift</span> + <span class="o">[</span> ：切换到上一个标签页
+<span class="nb">command</span> + <span class="nb">shift</span> + <span class="o">]</span> ：切换到下一个标签页
+</code></pre></div></div>
+
+<p>这里不过多解释对应配置文件做的事情，哈哈，其实折腾了很久，因为 Tmux 配置实在太复杂了，有兴趣二次改动的可以找到官方文档进行折腾，祝你玩的开心。</p>
+
+      
+<div class="coffee">
+  <a class="buy-me-coffee" href="https://miaoyan.app/cats.html?name=Blog" target="_blank">喜欢文章 → 去喂猫❤️</a>
+</div>
+
+
+    </div>
+    
+<div class="giscus-container">
+<script src="./改良了下传说中最快的终端 - Tw93_files/client.js.下载" data-repo="tw93/tw93.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkzMDE4NDU1NQ==" data-category="General" data-category-id="DIC_kwDOAcyUa84CSbZ-" data-mapping="title" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-lang="zh-CN" data-theme="https://gw.alipayobjects.com/os/k/9z78d6/comment.css" crossorigin="anonymous" async=""></script><div class="giscus"><iframe class="giscus-frame" title="Comments" scrolling="no" allow="clipboard-write" src="./改良了下传说中最快的终端 - Tw93_files/widget.html" style="height: 6124.78px;"></iframe></div>
+</div>
+
+
+    
+<a class="read-more" href="https://tw93.fun/2023-01-25/my-2022.html" title="">
+  <div class="read-more-header">
+    <div class="read-more-btn">Read More</div>
+  </div>
+  <div class="read-more-content">
+    <h3>2022 年总结 - 率性而活</h3>
+    <p>【2023-01-25】今天是 2023 年的大年初四，对于拖延症患者而言再不写可能就被我拖没了，那可不行，等到老了以后再来回忆应该都记不住发生了啥，对我而言 2022 年是值得记录的一年，本文打算从生活、折腾、工作三方面来随便聊聊。</p>
+  </div>
+</a>
+
+
+  </article>
+</div>
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    © 2015~2023&nbsp;
+    <img src="./改良了下传说中最快的终端 - Tw93_files/a1THPC.png" class="github-icon" alt="github">
+    <a href="https://github.com/tw93/tw93.github.io" rel="nofollow" target="_blank" class="need_dotted">
+      tw93/tw93.github.io
+    </a>
+  </footer>
+</div>
+
+<script type="text/javascript" src="./改良了下传说中最快的终端 - Tw93_files/index.min.js.下载"></script>
+<script type="text/javascript" src="./改良了下传说中最快的终端 - Tw93_files/heti-addon.min.js.下载"></script>
+
+
+<script async="" src="./改良了下传说中最快的终端 - Tw93_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-57207999-1");
+</script>
+ 
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var links = document.links;
+    for (var i = 0; i < links.length; i++) {
+      if (
+        links[i].hostname != window.location.hostname ||
+        (links[i].href && links[i].href.indexOf("feed.xml") != -1)
+      ) {
+        links[i].target = "_blank";
+      }
+    }
+    //字距优化
+    const heti = new Heti(".heti");
+    heti.autoSpacing();
+
+    document
+      .getElementById("fullscreenBtn")
+      .addEventListener("click", function () {
+        var elem = document.getElementById("postIframe");
+
+        if (!document.fullscreenElement) {
+          if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+          }
+        } else {
+          if (document.exitFullscreen) {
+            document.exitFullscreen();
+          }
+        }
+      });
+  });
+</script>
+
+
+
+<script type="text/javascript" src="./改良了下传说中最快的终端 - Tw93_files/qrcode.min.js.下载"></script></body></html>
