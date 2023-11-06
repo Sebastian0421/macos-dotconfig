@@ -45,16 +45,16 @@ colors:
 # 设置字体
 font:
   normal:
-    family: 'JetBrainsMono Nerd Font'
+    family: 'ComicShannsMono Nerd Font'
     style: Regular
   bold:
-    family: 'JetBrainsMono Nerd Font'
+    family: 'ComicShannsMono Nerd Font'
     style: bol
   italic:
-    family: 'JetBrainsMono Nerd Font'
+    family: 'ComicShannsMono Nerd Font'
     style: Italic
   bold_italic:
-    family: 'JetBrainsMono Nerd Font'
+    family: 'ComicShannsMono Nerd Font'
     style: Bold Italic
 
   # 字大小
