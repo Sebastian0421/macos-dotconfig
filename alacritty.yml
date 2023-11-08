@@ -120,6 +120,7 @@ key_bindings:
   - { key: Back, mods: Alt, chars: "\x1b\x7f" } # Delete word
   - { key: T, mods: Command, chars: "\x1cc" } # new tab with default shell
   - { key: W, mods: Command, chars: "\x1c&" } # close the tab
+  - { key: X, mods: Command, chars: "\x1cx" } # close the pane
   - { key: LBracket, mods: Command|Shift, chars: "\x1cp" } # go to previous tab
   - { key: RBracket, mods: Command|Shift, chars: "\x1cn" } # go to next tab
   - { key: Key1, mods: Command, chars: "\x1c1" } # go to tab 1..9
