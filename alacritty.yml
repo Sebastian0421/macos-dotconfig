@@ -93,8 +93,18 @@ scrolling:
   multiplier: 4
 
 cursor:
+  # This is the default look of your text cursor.
+  # It might be overwritten by applications like `vim`.
+  #
+  # Values for `style`:
+  # - Block     (Looks like: ▒)
+  # - Underline (Looks like: _)
+  # - Beam      (Looks like: |)
   style:
-    shape: Beam
+    shape: Block
+      # When this is `true`, the text cursor is temporarily
+  # hidden when typing.
+  hide_when_typing: false
 
 # 如果为‘true’，则使用亮色变体绘制粗体文本。
 draw_bold_text_with_bright_colors: false
@@ -134,7 +144,5 @@ key_bindings:
   - { key: Key9, mods: Command, chars: "\x1c9" }
   - { key: Back, action: ReceiveChar }
 
-  - { key: Paste, action: Paste }
-  - { key: Copy, action: Copy }
   - { key: L, mods: Control, action: ClearLogNotice }
   - { key: F, mods: Command|Shift, action: ToggleFullscreen }
