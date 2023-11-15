@@ -115,6 +115,7 @@ selection:
 
 live_config_reload: true
 
+#"\x1c"指”C-\“ 配合tmux快捷键,此处将tmux快捷键改为"`"
 key_bindings:
   - { key: R, mods: Command, mode: ~Vi|~Search, chars: "\x0c" }
   - { key: R, mods: Command, mode: ~Vi|~Search, action: ClearHistory }
@@ -128,21 +129,37 @@ key_bindings:
   - { key: Right, mods: Command, chars: "\x05" } # End
   - { key: Back, mods: Command, chars: "\x15" } # Delete line
   - { key: Back, mods: Alt, chars: "\x1b\x7f" } # Delete word
-  - { key: T, mods: Command, chars: "\x1cc" } # new tab with default shell
-  - { key: W, mods: Command, chars: "\x1c&" } # close the tab
-  - { key: X, mods: Command, chars: "\x1cx" } # close the pane
-  - { key: LBracket, mods: Command|Shift, chars: "\x1cp" } # go to previous tab
-  - { key: RBracket, mods: Command|Shift, chars: "\x1cn" } # go to next tab
-  - { key: Key1, mods: Command, chars: "\x1c1" } # go to tab 1..9
-  - { key: Key2, mods: Command, chars: "\x1c2" }
-  - { key: Key3, mods: Command, chars: "\x1c3" }
-  - { key: Key4, mods: Command, chars: "\x1c4" }
-  - { key: Key5, mods: Command, chars: "\x1c5" }
-  - { key: Key6, mods: Command, chars: "\x1c6" }
-  - { key: Key7, mods: Command, chars: "\x1c7" }
-  - { key: Key8, mods: Command, chars: "\x1c8" }
-  - { key: Key9, mods: Command, chars: "\x1c9" }
-  - { key: Back, action: ReceiveChar }
 
+  - { key: T, mods: Command, chars: "`c" } # new tab with default shell
+  - { key: W, mods: Command, chars: "`&" } # close the tab
+  - { key: X, mods: Command, chars: "`x" } # close the pane
+  - { key: LBracket, mods: Command|Shift, chars: "`p" } # go to previous tab
+  - { key: RBracket, mods: Command|Shift, chars: "`n" } # go to next tab
+  - { key: Key1, mods: Command, chars: "`1" } # go to tab 1..9
+  - { key: Key2, mods: Command, chars: "`2" }
+  - { key: Key3, mods: Command, chars: "`3" }
+  - { key: Key4, mods: Command, chars: "`4" }
+  - { key: Key5, mods: Command, chars: "`5" }
+  - { key: Key6, mods: Command, chars: "`6" }
+  - { key: Key7, mods: Command, chars: "`7" }
+  - { key: Key8, mods: Command, chars: "`8" }
+  - { key: Key9, mods: Command, chars: "`9" }
+
+  # - { key: T, mods: Command, chars: "\x1cc" } # new tab with default shell
+  # - { key: W, mods: Command, chars: "\x1c&" } # close the tab
+  # - { key: X, mods: Command, chars: "\x1cx" } # close the pane
+  # - { key: LBracket, mods: Command|Shift, chars: "\x1cp" } # go to previous tab
+  # - { key: RBracket, mods: Command|Shift, chars: "\x1cn" } # go to next tab
+  # - { key: Key1, mods: Command, chars: "\x1c1" } # go to tab 1..9
+  # - { key: Key2, mods: Command, chars: "\x1c2" }
+  # - { key: Key3, mods: Command, chars: "\x1c3" }
+  # - { key: Key4, mods: Command, chars: "\x1c4" }
+  # - { key: Key5, mods: Command, chars: "\x1c5" }
+  # - { key: Key6, mods: Command, chars: "\x1c6" }
+  # - { key: Key7, mods: Command, chars: "\x1c7" }
+  # - { key: Key8, mods: Command, chars: "\x1c8" }
+  # - { key: Key9, mods: Command, chars: "\x1c9" }
+
+  - { key: Back, action: ReceiveChar }
   - { key: L, mods: Control, action: ClearLogNotice }
   - { key: F, mods: Command|Shift, action: ToggleFullscreen }
